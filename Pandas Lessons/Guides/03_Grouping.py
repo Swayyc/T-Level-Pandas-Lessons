@@ -7,7 +7,6 @@ df = pd.DataFrame({"id":["000","001","002","003","004","005","006","007","008","
 print(df.head(20))
 
 input()
-
 group = df.groupby("team")
 group = group.sum()
 group = group.sort_values(["score"],ascending=False)

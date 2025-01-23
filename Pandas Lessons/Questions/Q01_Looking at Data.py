@@ -13,47 +13,49 @@ df = pd.read_csv('https://raw.githubusercontent.com/justmarkham/DAT8/master/data
 print("step 4")
 print("look at the first 25 entries")
 
-#Your code goes here:003
+#Your code goes here: mySeries.head(25)
 
-print("#"*10)
+
+print(df.head(25)*10)
 input()
 
 print("step 5")
 print("look at the last 10 entries")
 
-#Your code goes here:
+#Your code goes here: mySeries.tail(10)
 
-print("#"*10)
+print(df.tail(10)*10)
 input()
 
 print("step 6")
 print("find out the number of rows in the dataset")
 
-#Your code goes here:
+#Your code goes here: mySeries.shape[0]
 
-print("#"*10)
+print(df.shape[0]*10)
 input()
 
 print("step 7")
 print("found out the number of columns in the dataset")
 
-#Your code goes here:
+#Your code goes here: mySeries.shape[1]
 
-print("#"*10)
+print(df.shape[1]*10)
 input()
 
 print("step 8")
 print("print the name of all the columns")
 
-#Your code goes here:
+#Your code goes here: 
 
-print("#"*10)
+print(df.columns*10)
 input()
 
 print("step 9")
 print("find out how the data is indexed (what are the labels)")
 
-#Your code goes here:
+#Your code goes here: 
+df = df.index()
 
 print("#"*10)
 input()
@@ -61,7 +63,7 @@ input()
 print("step 10")
 print("what are the data types of each column")
 
-#Your code goes here:
+#Your code goes here: column1-int column2-string/int column3-char/string column4-string/int
 
 print("#"*10)
 input()
